@@ -1,4 +1,4 @@
-var x = function functionName() {
-    window.alert( arguments.callee.name );
-} 
+var x = () => {
+  window.alert(x.name);
+}
 x();
