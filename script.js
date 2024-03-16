@@ -1,1 +1,4 @@
-//your JS code here. If required.
+var x = function x() {
+    window.alert( arguments.callee.name );
+}
+x();
