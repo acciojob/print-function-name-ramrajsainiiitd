@@ -1,4 +1,4 @@
-let x = function name() {
-  window.alert(x.name);
+let x = function functionName() {
+  window.alert(functionName.name);
 }
 x();
