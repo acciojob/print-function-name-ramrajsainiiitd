@@ -1,4 +1,4 @@
-var x = function hello() {
+let x = function name() {
   window.alert(x.name);
 }
 x();
