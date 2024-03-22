@@ -1,4 +1,3 @@
-let x = function functionName() {
+let function functionName() {
   window.alert(arguments.callee.name);
 }
-x();
