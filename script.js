@@ -1,3 +1,4 @@
-let function functionName() {
-  window.alert(arguments.callee.name);
-}
+var x = function AccioJob() {
+    window.alert(arguments.callee.name);
+  } 
+  x(); 
